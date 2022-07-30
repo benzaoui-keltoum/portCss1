@@ -1,0 +1,41 @@
+/*    Create a file `styles.css`.
+    Link it to our HTML project.
+    Change the display of the navbar to make it inline.
+    Change the font to roboto.
+    Add classes attributes to HTML / HTML documents .
+    Be creative ! */
+
+body {
+  font: roboto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(117, 192, 224);
+}
+
+li {
+  float: left;
+  height: 100%;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: rgb(66, 177, 225);
+}
+nav {
+  display: inline;
+}
