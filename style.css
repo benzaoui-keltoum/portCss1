@@ -5,6 +5,10 @@
     Add classes attributes to HTML / HTML documents .
     Be creative ! */
 
+/***************midfier la position des image du texte 
+  par raport au naviagation relative absolute n'esiter à relive le cour
+  */
+
 body {
   font: roboto;
 }
@@ -39,3 +43,316 @@ li a:hover {
 nav {
   display: inline;
 }
+/* today */
+.navigation {
+  position: relative;
+}
+.Home1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-image: url(/pon.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.me > img {
+  position: absolute;
+  border-radius: 50%;
+  max-width: 10.5em;
+  max-height: 10.5em;
+  top: 22%;
+  left: 50%;
+}
+
+.c1 {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 6.25em;
+  top: 12%;
+  left: 45%;
+}
+.c2 {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 6.25em;
+
+  top: 22%;
+  left: 49.5%;
+}
+
+.Hire1 {
+  display: flex;
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  padding: 8px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+  text-align: center;
+}
+.Hire1:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+.Hire2:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+
+.Hire2 {
+  display: flex;
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  padding: 8px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+  text-align: center;
+}
+.c3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+
+  top: 75%;
+  left: 50%;
+}
+
+.ombre {
+  box-shadow: 2px 2px 6px gray;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 90%;
+  border: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 40px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  align-items: center;
+}
+/* 
+#Work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url(/website.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/****resume style */
+
+.msg {
+  padding: 10px;
+  background: #222;
+  position: relative;
+}
+.msg h1 {
+  color: #fff;
+}
+.msg a {
+  margin-left: 20px;
+  background: #408814;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.msg a:hover {
+  background: #266400;
+}
+
+.carre {
+  position: relative;
+  background-image: url(/bleucaree.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16em;
+  justify-content: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  top: 3%;
+  left: 39%;
+}
+.c5 {
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  top: 35%;
+  left: 42%;
+}
+
+.Hire3 {
+  position: absolute;
+  color: rgb(99, 97, 97);
+  background-color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600em;
+  top: 60%;
+  left: 39%;
+  padding: 8px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+  text-align: center;
+  width: 6em;
+  height: 1.3em;
+}
+.Hire4 {
+  position: absolute;
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600em;
+  top: 60%;
+  left: 49%;
+  padding: 8px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+  text-align: center;
+}
+.Contact {
+  display: flex;
+  border: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 40px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 6px gray;
+  width: 60%;
+  height: 50%;
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.ProfesionelSkills {
+  width: 100%;
+  height: 100%;
+}
+
+.barProgress {
+  width: 80%;
+  height: 20px;
+  background-color: #0a49f6;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+.bar {
+  width: 40%;
+  height: 20px;
+  background-color: wheat;
+  border-radius: 4px;
+  border: gray;
+  text-align: center;
+}
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(71, 70, 70);
+  margin-bottom: 10px;
+}
+.barProgress1 {
+  width: 75%;
+  height: 20px;
+  background-color: #0a49f6;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+.barProgress2 {
+  width: 60%;
+  height: 20px;
+  background-color: #0a49f6;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+.bar2 {
+  width: 40%;
+  height: 20px;
+  background-color: wheat;
+  border-radius: 4px;
+  border: gray;
+  text-align: center;
+}
+.barProgress21 {
+  width: 80%;
+  height: 20px;
+  background-color: green;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+.barProgress22 {
+  width: 75%;
+  height: 20px;
+  background-color: green;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+.barProgress23 {
+  width: 60%;
+  height: 20px;
+  background-color: green;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+/*****mettre les classe un et deux avec flex 
+coté coté */
